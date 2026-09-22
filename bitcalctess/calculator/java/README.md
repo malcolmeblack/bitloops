@@ -3,10 +3,10 @@
 Requires JDK.
 
 Compile
-`javac I.java`
+`javac Main.java`
 
 Run
-`java I`
+`java Main`
 
 Enter a value for *n*, and the program outputs a .csv file with properties of the power set of *n*. Execution time gets very long for values of *n* higher than 20, mostly due to the chainReps method that finds one representative bitloop for every chain that partitions a power set. There are two versions of chainReps, v1 and v2, and one may be faster than the other depending on the value of *n*.
 
